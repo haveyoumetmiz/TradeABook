@@ -63,7 +63,7 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
 ### For Developers
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/haveyoumetmiz/StudentBookExchangeHub.git>
    ```
 2. Set up a virtual environment:
    ```bash
