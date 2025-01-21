@@ -9,7 +9,7 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
 - **Buy and Sell:**
   - Facilitate transactions for books, calculators, lab coats, and more.
 - **Built-in Chatbot:**
-  - Provides real-time support for users navigating the platform.
+  - Provides real-time support for users navigating the platform using Drift chatbot.
 - **Secure Payment Gateway:**
   - Integrated Razorpay gateway ensures smooth and secure transactions.
 - **Mobile App (Coming Soon):**
@@ -22,7 +22,7 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
 - **Backend:** Django (Python) for server-side application logic.
 - **Database:** SQLite for efficient data storage and retrieval.
 - **Payment Gateway:** Razorpay for secure and hassle-free payments.
-- **Chatbot:** AI-powered chatbot for 24/7 user assistance.
+- **Chatbot:** Drift chatbot for 24/7 user assistance.
 
 ---
 
@@ -36,7 +36,7 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
 4. **Secure Transactions:**
    - Use Razorpay for reliable and fast payment processing.
 5. **Chat Support:**
-   - Get assistance anytime with the platform’s chatbot.
+   - Get assistance anytime with the platform’s Drift chatbot.
 
 ---
 
