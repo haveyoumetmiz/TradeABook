@@ -1,7 +1,7 @@
 # TradeABook
 
 ## Overview
-The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative platform designed to simplify the buying and selling of books, study equipment, and other essentials like calculators and lab coats. Tailored for students, the website creates a seamless and affordable way to share resources within a campus or educational community. By connecting senior and junior students, it fosters collaboration, sustainability, and cost savings.
+The TradeABook platform, hosted at **Booksii.tech**, is an innovative platform designed to simplify the buying and selling of books, study equipment, and other essentials like calculators and lab coats. Tailored for students, the website creates a seamless and affordable way to share resources within a campus or educational community. By connecting senior and junior students, it fosters collaboration, sustainability, and cost savings.
 
 ---
 
@@ -14,15 +14,22 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
   - Integrated Razorpay gateway ensures smooth and secure transactions.
 - **Mobile App (Coming Soon):**
   - Expanding accessibility through a dedicated mobile app.
+- **User Dashboard:**
+  - Personalized dashboard for managing listings, transactions, and messages.
+- **Wishlist Feature:**
+  - Save favorite listings for future reference.
+- **Notifications:**
+  - Receive alerts for new listings, messages, and transaction updates.
 
 ---
 
 ## Technology Stack
-- **Frontend:** HTML, CSS, and JavaScript for a responsive and interactive user interface.
+- **Frontend:** React.js, Tailwind CSS for a modern and responsive user interface.
 - **Backend:** Django (Python) for server-side application logic.
-- **Database:** SQLite for efficient data storage and retrieval.
+- **Database:** PostgreSQL for efficient and scalable data storage.
 - **Payment Gateway:** Razorpay for secure and hassle-free payments.
 - **Chatbot:** Drift chatbot for 24/7 user assistance.
+- **Authentication:** Firebase for secure user authentication.
 
 ---
 
@@ -33,9 +40,11 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
    - Search for books and study essentials posted by other students.
 3. **Post an Ad:**
    - List your items for sale with a description, price, and photos.
-4. **Secure Transactions:**
+4. **Wishlist & Notifications:**
+   - Save items for later and get notified about new listings.
+5. **Secure Transactions:**
    - Use Razorpay for reliable and fast payment processing.
-5. **Chat Support:**
+6. **Chat Support:**
    - Get assistance anytime with the platform’s Drift chatbot.
 
 ---
@@ -44,6 +53,7 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
 - **Affordability:** Save money by purchasing used items at lower costs.
 - **Sustainability:** Reduce waste by reusing resources.
 - **Community Building:** Encourage interactions and support among students.
+- **Convenience:** Easily find and sell study materials within the campus.
 
 ---
 
@@ -56,6 +66,10 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
   - Collaborate with courier services for door-to-door delivery.
 - **Rating System:**
   - Enable buyers and sellers to rate each other for transparency.
+- **AI-Based Recommendations:**
+  - Suggest books based on user interests and search history.
+- **Multiple Payment Methods:**
+  - Support for UPI, credit/debit cards, and wallet payments.
 
 ---
 
@@ -63,7 +77,7 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
 ### For Developers
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/haveyoumetmiz/StudentBookExchangeHub.git>
+   git clone https://github.com/haveyoumetmiz/TradeABook.git
    ```
 2. Set up a virtual environment:
    ```bash
@@ -74,7 +88,11 @@ The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative plat
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the development server:
+4. Apply migrations:
+   ```bash
+   python manage.py migrate
+   ```
+5. Run the development server:
    ```bash
    python manage.py runserver
    ```
@@ -100,4 +118,3 @@ For any inquiries or feedback, feel free to reach out:
 ---
 
 Join us at **Booksii.tech** and make student life more affordable and sustainable!
-
