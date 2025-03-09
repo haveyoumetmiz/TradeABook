@@ -1,4 +1,4 @@
-# Student Book Exchange Hub (Booksii.tech)
+# TradeABook
 
 ## Overview
 The Student Book Exchange Hub, hosted at **Booksii.tech**, is an innovative platform designed to simplify the buying and selling of books, study equipment, and other essentials like calculators and lab coats. Tailored for students, the website creates a seamless and affordable way to share resources within a campus or educational community. By connecting senior and junior students, it fosters collaboration, sustainability, and cost savings.
